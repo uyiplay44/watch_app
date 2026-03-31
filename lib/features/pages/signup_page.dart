@@ -69,6 +69,12 @@ class _SignupPageState extends State<SignupPage> {
               SizedBox(height: 20),
               AuthButton(text: 'SignUp'),
               SizedBox(height: 20),
+              AnimatedContainer(
+                decoration: BoxDecoration(
+                  boxShadow: [BoxShadow(blurRadius: 12, spreadRadius: 2)],
+                ),
+                duration: Duration(milliseconds: 300),
+              ),
             ],
           ),
         ),

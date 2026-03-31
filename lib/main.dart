@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:watch_app/core/theme/theme.dart';
-import 'package:watch_app/features/pages/signin_page.dart';
+import 'package:watch_app/features/toggle_theme_mode.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: AppTheme.darkThemeMode,
-      home: SigninPage(),
+      home: ToggleThemeMode(),
     );
   }
 }
